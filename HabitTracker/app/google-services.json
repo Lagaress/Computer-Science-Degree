@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "15438405278",
+    "project_id": "habittracker-df6c2",
+    "storage_bucket": "habittracker-df6c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15438405278:android:3ad3bef1ed27b1128f658f",
+        "android_client_info": {
+          "package_name": "com.jesuslagares.habittracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15438405278-n2jfbnqh6kapjk2d8iqqf0hg989i47sn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjTOLwIXb0tSGSSYiycLuSN5pDcfaG9fo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15438405278-n2jfbnqh6kapjk2d8iqqf0hg989i47sn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

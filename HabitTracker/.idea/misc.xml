@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/HabitTracker/app/src/main/res/drawable/ic_add.xml" value="0.1785" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/HabitTracker/app/src/main/res/drawable/ic_footprint.xml" value="0.1785" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/HabitTracker/app/src/main/res/layout/activity_auth.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/HabitTracker/app/src/main/res/layout/activity_intro.xml" value="0.10885416666666667" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/HabitTracker/app/src/main/res/layout/activity_main.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/HabitTracker/app/src/main/res/layout/fragment_create_habit_item.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/HabitTracker/app/src/main/res/layout/fragment_habit_list.xml" value="0.30625" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/HabitTracker/app/src/main/res/layout/fragment_pedometer.xml" value="0.22" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/HabitTracker/app/src/main/res/layout/fragment_update_habit_item.xml" value="0.10885416666666667" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/HabitTracker/app/src/main/res/layout/intro_item_page.xml" value="0.10885416666666667" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/HabitTracker/app/src/main/res/layout/recycler_habit_item.xml" value="0.22" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/HabitTracker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1785" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/Habit_Tracker_2020-master/app/src/main/res/drawable/ic_add.xml" value="0.195" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/Habit_Tracker_2020-master/app/src/main/res/drawable/ic_baseline_person_add_24.xml" value="0.195" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/Habit_Tracker_2020-master/app/src/main/res/drawable/ic_baseline_person_remove_24.xml" value="0.195" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/Habit_Tracker_2020-master/app/src/main/res/drawable/ic_baseline_self_improvement.xml" value="0.1" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/Habit_Tracker_2020-master/app/src/main/res/drawable/ic_fastfood.xml" value="0.195" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/Habit_Tracker_2020-master/app/src/main/res/drawable/ic_outline_fastfood.xml" value="0.195" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/Habit_Tracker_2020-master/app/src/main/res/drawable/ic_outline_tea.xml" value="0.195" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/Habit_Tracker_2020-master/app/src/main/res/drawable/ic_smoking.xml" value="0.195" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/Habit_Tracker_2020-master/app/src/main/res/drawable/ic_tea.xml" value="0.195" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/Habit_Tracker_2020-master/app/src/main/res/drawable/tea_selected.xml" value="0.195" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/Habit_Tracker_2020-master/app/src/main/res/layout/activity_intro.xml" value="0.26875" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/Habit_Tracker_2020-master/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/Habit_Tracker_2020-master/app/src/main/res/layout/fragment_create_habit_item.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/Habit_Tracker_2020-master/app/src/main/res/layout/fragment_habit_list.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/Habit_Tracker_2020-master/app/src/main/res/layout/fragment_update_habit_item.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/Habit_Tracker_2020-master/app/src/main/res/layout/intro_item_page.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Zegar/AndroidStudioProjects/Habit_Tracker_2020-master/app/src/main/res/layout/recycler_habit_item.xml" value="0.358695652173913" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

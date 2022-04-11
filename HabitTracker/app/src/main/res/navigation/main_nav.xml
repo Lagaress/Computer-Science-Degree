@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/habitList">
+
+    <fragment
+        android:id="@+id/habitList"
+        android:name="com.jesuslagares.habittracker.ui.fragments.habitlist.HabitList"
+        android:label="Habit List"
+        tools:layout="@layout/fragment_habit_list" >
+        <action
+            android:id="@+id/action_habitList_to_updateHabitItem"
+            app:destination="@id/updateHabitItem" />
+        <action
+            android:id="@+id/action_habitList_to_createHabitItem"
+            app:destination="@id/createHabitItem" />
+        <action
+            android:id="@+id/action_habitList_to_createHabitItem2"
+            app:destination="@id/createHabitItem" />
+        <action
+            android:id="@+id/action_habitList_to_pedometer"
+            app:destination="@id/pedometer" />
+        <action
+            android:id="@+id/action_habitList_to_authActivity"
+            app:destination="@id/authActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateHabitItem"
+        android:name="com.jesuslagares.habittracker.ui.fragments.updatehabit.UpdateHabitItem"
+        android:label="Update habit"
+        tools:layout="@layout/fragment_update_habit_item" >
+        <action
+            android:id="@+id/action_updateHabitItem_to_habitList"
+            app:destination="@id/habitList"
+            app:exitAnim="@anim/fragment_close_exit" />
+        <argument
+            android:name="selectedHabit"
+            app:argType="com.jesuslagares.habittracker.data.models.Habit" />
+    </fragment>
+    <fragment
+        android:id="@+id/createHabitItem"
+        android:name="com.jesuslagares.habittracker.ui.fragments.createhabit.CreateHabitItem"
+        android:label="Create a new habit"
+        tools:layout="@layout/fragment_create_habit_item" >
+        <action
+            android:id="@+id/action_createHabitItem_to_habitList"
+            app:destination="@id/habitList" />
+    </fragment>
+    <fragment
+        android:id="@+id/pedometer"
+        android:name="com.jesuslagares.habittracker.ui.fragments.pedometer.Pedometer"
+        android:label="Count your steps"
+        tools:layout="@layout/fragment_pedometer" >
+        <action
+            android:id="@+id/action_pedometer_to_habitList"
+            app:destination="@id/habitList" />
+    </fragment>
+    <activity
+        android:id="@+id/authActivity"
+        android:name="com.jesuslagares.habittracker.ui.auth.AuthActivity"
+        android:label="activity_auth"
+        tools:layout="@layout/activity_auth" />
+</navigation>
