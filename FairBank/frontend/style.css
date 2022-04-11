@@ -1,0 +1,226 @@
+body
+{
+
+    background: rgb(130,88,50);
+    background: linear-gradient(90deg, rgba(130,88,50,1) 0%, rgba(251,239,203,1) 100%);
+
+}
+
+p 
+{ 
+    color: #2e2e27c2; 
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 25px; 
+    line-height: 32px; 
+    font-weight: 500;
+}
+
+.content
+{
+
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    background-color: rgba(255, 222, 130, 0.226);
+    padding: 5% ; 
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000c2;
+    border-radius:4px;
+
+}
+
+.page-title-div
+{
+
+    margin-top: -5%;
+    margin-bottom: 2%;
+
+}
+
+.transferAccount,.balanceAccount
+{
+
+    text-align: center;
+
+}
+
+button{
+
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    text-align: center;
+    border: 0;
+    padding: 7px 16px;
+    min-height: 36px;
+    min-width: 36px;
+    color: 2e2e27c2(0, 0, 0);
+    background: #825832;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px, rgba(0, 0, 0, 0.2) 0px -1px 0px 0px inset;
+
+}
+
+
+
+button:hover {
+    background: rgba(251,239,203,1);
+}
+
+.input-submit input
+{
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    background-image: linear-gradient(90deg, rgba(130,88,50,1) 0%, rgba(251,239,203,1) 100%);
+    cursor: pointer;
+    border-radius: 10px;
+    color: 2e2e27c2(0, 0, 0);
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 10px;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 1% ;  
+}
+
+#balance, #transferConfirmation
+{
+
+    display: none;
+
+}
+
+.input-container input{
+    border:0;
+    border-bottom:2px solid rgba(251,239,203,1) ; 
+    background:transparent;
+    padding:8px 0 5px 0;
+    color:#2e2e27c2;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 18px; 
+    line-height: 32px; 
+    font-weight: 500;
+    width: 30%;
+  
+}
+
+.input-container input::placeholder
+{
+
+    text-align: center;
+    color: #2e2e27c2; 
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 18px; 
+    line-height: 32px; 
+    font-weight: 500;
+
+}
+
+.input-container input:focus{ 
+    border:none;	
+    outline:none;
+    border-bottom:2px solid rgba(130,88,50,1);
+    border-radius: 4px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+
+}
+
+.input-container input:focus::placeholder{ 
+    color: transparent ;
+}
+
+.login-form
+{
+
+    margin-top: 12%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    background-color: rgba(255, 222, 130, 0.226);
+    padding: 5% ; 
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000c2;
+    border-radius:4px;
+
+}
+
+.enableEthereumButtonDiv
+{
+
+    position: absolute;
+    bottom: 620px; left: 880px;
+
+}
+
+#logoutButton
+{
+
+    position: absolute;
+    top: 90px; left: 1635px;
+
+
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  #contenedor > div.balanceAccount, div.transferAccount {
+
+    width: 50%;
+
+  }
+
+.tableDiv
+{
+
+    margin-top: -290px ;
+    margin-left: 1860px;
+
+}
+
+#listRelatives
+{
+    
+
+    margin-left: -1360px ; 
+    margin-bottom: 0px;
+}
+
+.addRelativeDiv
+{
+
+    position: absolute;
+    bottom: 220px; left: 170px;
+
+}
+
+.relativeButton
+{
+
+    margin-left: 8px;
+
+}
+
+td, th {
+    border: 2px solid #2e2e27c2;
+    color: 2px solid #2e2e27c2 !important;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 17px; 
+    
+  }
+  
+  

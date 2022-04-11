@@ -1,0 +1,31 @@
+{
+  "name": "MyFirstDapp",
+  "version": "1.0.0",
+  "description": "This is a repository to contain the code of my first Decentralised App",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node ./contracts/js/compile.js",
+    "deploy": "node ./contracts/js/deploy.js",
+    "server": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lagaress/MyFirstDapp.git"
+  },
+  "keywords": [],
+  "author": "Jesús Lagares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lagaress/MyFirstDapp/issues"
+  },
+  "homepage": "https://github.com/Lagaress/MyFirstDapp#readme",
+  "dependencies": {
+    "package.json": "^2.0.1",
+    "solc": "^0.8.11",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.7.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
